@@ -78,6 +78,7 @@ for (const br in browserArr) {
 
 
 
+
 // here we can create an object in the JSON format
 const user ={
     "Name":"Shon Antony",
