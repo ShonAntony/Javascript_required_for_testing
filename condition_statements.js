@@ -109,7 +109,8 @@ function checkDay(dayNumb){
             day="no day is selected";
         
     }
-    console.log(day);    
+    console.log(day);  
+    return day;  
 }
 
-checkDay(2);
+console.log(checkDay(2));
