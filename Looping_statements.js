@@ -96,3 +96,10 @@ console.log("======");
 for (const key in user) {
     console.log(key+" : "+user[key]);
 }
+
+//forEach() here we can use this to iterate through the 
+console.log("======");
+let array =  ["Shon","Santhosh","Antony","Empty"];
+array.forEach((element) => {
+    console.log(element); 
+});

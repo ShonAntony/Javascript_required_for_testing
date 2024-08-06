@@ -66,3 +66,43 @@ let animals1 =["Lion","Tiger","Fox","Wolf"];
 
 // here the last index will be excluded in the below case it is going to take one the 0th and 1st index values
 console.log(animals1.slice(0,2));
+
+
+// =========================== CONCAT() ================================================================================
+// this is used to combine 2 arrays and make it into one 
+let num =[1,2,3];
+let num1=[4,5,6];
+
+console.log(num.concat(num1));
+
+// =========================== INDEXOF() ================================================================================
+// this is used to get the index of a value in the array 
+let names1 =["Shon","Santhosh","Antony"];
+
+console.log(names1.indexOf("Shon"))
+console.log(names1.indexOf("Santhosh"));
+console.log(names1.indexOf("Antony"));
+
+// lets say there are duplicates in the array i.e 
+let names2 =["Shon","Santhosh","Antony","Shon"];
+console.log(names2.indexOf("Shon"));
+// now we know the first occurance to get the next we are going to start the check after the index we have got
+console.log(names2.indexOf("Shon",names2.indexOf("Shon")+1));
+
+
+// =========================== INCLUDES() ================================================================================
+// this will just check if the value we have passed is there in the array or not 
+let test = ["aaaa","bbbb","cccc","dddd","eeee"];
+// this returns a boolean value
+// here we can pass more than one value to check if those values are there in the array or not 
+console.log(test.includes("aaaa"));
+console.log(test.includes("aaaa","dddd"));
+
+// =========================== FOREACH() ================================================================================
+// this function is similar to how the for loop works 
+console.log("========================");
+let n = [1,2,3,4,5,6,7,8,9,0];
+// here if you notice we have this function as a part of the array and below "n" is the array and inside the "forEach" we have to give 
+n.forEach(element => {
+    console.log(element);
+});
