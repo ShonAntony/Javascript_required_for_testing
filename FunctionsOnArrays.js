@@ -101,3 +101,24 @@ let total=itemAndPrice.reduce((totalCost,ele) => {
 },0);
 
 console.log(total);
+
+
+//=================================== EVERY() ===============================================================================
+// this will return a boolean value if all the elements in the array satisfy the condition 
+let arr4 = [1,2,3,4,5,6];
+let flag = arr4.every((e)=> e<10);
+console.log(flag);
+
+//=================================== SOME() ===============================================================================
+// this is the opposite of every() 
+let arr5 = [1,20,2,4,5,3,6];
+let flag1 = arr5.some((e) => e%2 === 0);
+console.log(flag1);
+
+//=================================== FIND() ===============================================================================
+// this is used to find some specific value from the elements in an array if that element meets the condition 
+// it returns the first element which satisfy the condition 
+
+let test = [1,3,4,5,6];
+let value=test.find((e) => e%2 === 0);
+console.log(value);

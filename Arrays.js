@@ -77,6 +77,8 @@ console.log(num.concat(num1));
 
 // =========================== INDEXOF() ================================================================================
 // this is used to get the index of a value in the array 
+// it returns -1 if there are no values in the array 
+
 let names1 =["Shon","Santhosh","Antony"];
 
 console.log(names1.indexOf("Shon"))
@@ -106,3 +108,21 @@ let n = [1,2,3,4,5,6,7,8,9,0];
 n.forEach(element => {
     console.log(element);
 });
+
+
+// =========================== LASTINDEXOF() ================================================================================
+// this will return the index of the last matching element in the array
+
+let n1 = [1,2,3,4,5,6,7,8,9,0,2];
+console.log(n1.lastIndexOf(2)); // the index is 10 since the last occurance of 2 is at 10th index
+
+
+// =========================== REVERSE() ================================================================================
+// this is used to reverse an entire array 
+let arr6 = ["shon","santhosh","antony"];
+let reverseArr6 =arr6.reverse();
+
+// =========================== SORT() ================================================================================
+// this is used to sort the elements in the alpha order
+let brands = ["samsung","lg","oppo","vivo","apple","android"];
+console.log(brands.sort());
