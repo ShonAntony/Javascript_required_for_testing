@@ -68,4 +68,10 @@ console.log(car.getInfo()); // parent class method
 car.startEngine();// parent class method 
 car.driveCar();// same class method 
 car.stopEngine(); // parent class method
-console.log(truck.getInfo());// here we are going to get the info regarding the truck object 
+console.log(truck.getInfo());// here we are going to get the info regarding the truck object
+
+
+// multiple inheritance is not allowed in JS i.e one class cannot extend to two different parent classes 
+
+// multi level inheritance is possible here  
+
