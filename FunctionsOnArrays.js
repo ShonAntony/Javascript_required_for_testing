@@ -116,9 +116,7 @@ let flag1 = arr5.some((e) => e%2 === 0);
 console.log(flag1);
 
 //=================================== FIND() ===============================================================================
-// this is used to find some specific value from the elements in an array if that element meets the condition 
-// it returns the first element which satisfy the condition 
-
+// this will return the fist value from an array which meets the condition given
 let test = [1,3,4,5,6];
 let value=test.find((e) => e%2 === 0);
 console.log(value);
