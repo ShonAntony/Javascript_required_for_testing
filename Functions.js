@@ -19,7 +19,7 @@ console.log("===========");
 // the second way of declaring a function is function expression : (this is also called as the annonymous function) here we are not defining the function name
 // i am creating a function to multi two numbres 
 let multi = function (a,b){
-    return (a,b);
+    return a*b;
 }
 
 console.log(multi(3,3));
